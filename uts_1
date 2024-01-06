@@ -1,0 +1,14 @@
+'''Buatlah sebuah fungsi yang bila dipanggil akan mencetak kalimat-kalimat berikut:
+
+Bersabarlah dan kamu akan mendapatkan apa yang kamu inginkan.
+Ketaktahuan adalah hal yang paling mengerikan.
+Kurangnya kecerdasan adalah kemiskinan terbesar
+'''
+
+
+def kalimat ():
+    print ("Bersabarlah dan kamu akan mendapatkan apa yang kamu inginkan.")
+    print ("Ketaktahuan adalah hal yang paling mengerikan.")
+    print ("Kurangnya kecerdasan adalah kemiskinan terbesar")
+
+kalimat ()

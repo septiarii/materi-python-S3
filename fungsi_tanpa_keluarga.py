@@ -1,0 +1,3 @@
+'''
+contoh fungsi tanpa masukan 
+'''

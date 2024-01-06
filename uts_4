@@ -1,0 +1,21 @@
+'''
+Buatlah sebuah variabel yang berisi daftar anggota pada sebuah keluarga (fiktif/bebas). 
+Daftar tersebut berisi elemen dalam bentuk dictionary, yang mengandung informasi masing-masing anggota keluarga:
+
+Nama
+Peran, misal: Ayah/Ibu/Anak
+Jenis kelamin
+Usia
+Isi minimal 4 elemen, bebas
+'''
+keluarga = [
+    {"nama": "Budi", "peran": "Ayah", "kelamin": "Laki-laki", "usia": 40},
+    {"nama": "Ani", "peran": "Ibu", "kelamin": "Perempuan", "usia": 38},
+    {"nama": "Cinta", "peran": "Anak", "kelamin": "Perempuan", "usia": 15},
+    {"nama": "Dito", "peran": "Anak", "kelamin": "Laki-laki", "usia": 12},
+]
+
+for s in keluarga:
+    print(f"{s['nama']} memiliki peran {s['peran']} jenis kelamin {s['kelamin']} usia {s['usia']}")
+
+

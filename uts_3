@@ -1,0 +1,25 @@
+'''
+Berikut adalah aturan pemberian donor darah berdasarkan golongan darahnya
+Orang bergolongan darah O hanya boleh menerima dari donor bergolongan darah O.
+Orang bergolongan darah A boleh menerima dari donor bergolongan darah O dan A.
+Orang bergolongan darah B boleh menerima dari donor bergolongan darah O dan B.
+Orang bergolongan darah AB boleh menerima dari donor golongan darah apapun.
+Buat sebuah fungsi yang menerima input parameter berupa golongan darah pendonor dan golongan darah penerima 
+kemudian mengembalikan nilai True bila donor sesuai, dan False bila sebaliknya.
+'''
+def donor (pendonor, penerima):
+    if penerima == "O":
+        return pendonor == "O"
+    elif penerima == "A":
+        return pendonor in ("O", "A")
+    elif penerima == "B":
+        return pendonor in ("O", "B")
+    elif penerima == "AB":
+        return True
+    else:
+        return False
+
+pendonor = "ab"
+penerima = "o"
+hasil = donor (pendonor, penerima)
+print(hasil)
